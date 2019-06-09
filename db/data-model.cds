@@ -1,5 +1,5 @@
 namespace my.bookshop;
-using { Country, managed } from '@sap/cds/common';
+using { Country, Currency, cuid, managed } from '@sap/cds/common';
 
 entity Books {
   key ID : Integer;
